@@ -1,0 +1,99 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background-color: #d9d9d9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.top-left-kmutnb {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #a6a6a6;
+  border-radius: 8px;
+  
+  
+
+}
+
+.top-left-kmutnb img {
+  height: 50px;
+  
+}
+
+.container {
+  width: 600px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.main-logo img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+p {
+  margin: 5px 0 25px 0;
+  font-size: 16px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.card {
+  width: 40%;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.card .icon img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.card .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-staff {
+  background: #ff6600;
+  color: white;
+}
+
+.btn-student {
+  background: #009933;
+  color: white;
+}
+
+.btn-login {
+  background: #ccc;
+  color: black;
+  margin-top: 25px;
+  padding: 12px 40px;
+}
